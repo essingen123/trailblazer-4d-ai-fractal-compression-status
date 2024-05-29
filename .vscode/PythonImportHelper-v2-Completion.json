@@ -1,0 +1,38 @@
+[
+    {
+        "label": "matplotlib.pyplot",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.pyplot",
+        "description": "matplotlib.pyplot",
+        "detail": "matplotlib.pyplot",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "trailblazer_ai_4d_fractal_compressor_tracker",
+        "description": "trailblazer_ai_4d_fractal_compressor_tracker",
+        "peekOfCode": "c = x + 1j * y\n# Mandelbrot set computation\nz = np.zeros_like(c)\nfor _ in range(100):\n    z = z**2 + c\n# Plot the result\nplt.figure(figsize=(8, 8))\nplt.imshow(np.abs(z), cmap='twilight_shifted', extent=(-2, 2, -2, 2))\nplt.axis('off')\nplt.title(\"Mandelbrot Set\")",
+        "detail": "trailblazer_ai_4d_fractal_compressor_tracker",
+        "documentation": {}
+    },
+    {
+        "label": "z",
+        "kind": 5,
+        "importPath": "trailblazer_ai_4d_fractal_compressor_tracker",
+        "description": "trailblazer_ai_4d_fractal_compressor_tracker",
+        "peekOfCode": "z = np.zeros_like(c)\nfor _ in range(100):\n    z = z**2 + c\n# Plot the result\nplt.figure(figsize=(8, 8))\nplt.imshow(np.abs(z), cmap='twilight_shifted', extent=(-2, 2, -2, 2))\nplt.axis('off')\nplt.title(\"Mandelbrot Set\")\nplt.show()",
+        "detail": "trailblazer_ai_4d_fractal_compressor_tracker",
+        "documentation": {}
+    }
+]
