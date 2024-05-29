@@ -117,6 +117,6 @@ if __name__ == '__main__':
     except sp.CalledProcessError as e:
         print(f"Git operation failed: {e}")
 
-    # Run Flask app
+    # Run Flask app and open the browser
     sp.Popen(['xdg-open', 'http://localhost:5000'])
     app.run(debug=True)
