@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trailblazer AI 4D Fractal Compressor Tracker</title>
+</head>
+<body>
+    <h1>Trailblazer AI 4D Fractal Compressor Tracker</h1>
+    <img src="/generate-fractal" alt="Fractal Image">
+    <h2>Data</h2>
+    <ul id="data-list"></ul>
+
+    <script>
+        fetch('/data')
+            .then(response => response.json())
+            .then(data => {
+                const dataList = document.getElementById('data-list');
+                data.data.forEach(item => {
+                    const li = document.createElement('li');
+                    li.textContent = `${item[1]}: ${item[2]}`;
+                    dataList.appendChild(li);
+                });
+            });
+    </script>
+</body>
+</html>
