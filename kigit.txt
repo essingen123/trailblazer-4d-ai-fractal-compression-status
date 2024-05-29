@@ -1,4 +1,4 @@
 #git-reponame, leave next line as random and it will be random word otherwise write a github repo name in
 trailblazer-4d-ai-fractal-compression-status
 #public git, y for yes n for no, standard no
-n
+y
